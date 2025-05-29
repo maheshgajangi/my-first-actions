@@ -1,0 +1,13 @@
+name: Say Hello and Time
+
+on: [push]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say Hello
+        run: echo "👋 Hello! This is your first GitHub Action."
+
+      - name: Print Current Date & Time
+        run: date
