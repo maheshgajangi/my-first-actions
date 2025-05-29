@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Say Hello
-        run: echo "👋 Hello! This is your first GitHub Action."
+        run: echo "🚀 Great job! You're learning fast!"
 
       - name: Print Current Date & Time
         run: date
